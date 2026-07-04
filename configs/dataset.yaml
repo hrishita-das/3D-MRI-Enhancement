@@ -1,0 +1,11 @@
+ixi:
+
+  lf: "data/ixi_unpaired/1.5T"
+
+  hf: "data/ixi_unpaired/3T"
+
+pmc:
+
+  lf: "data/pmc_paired/PMC dataset/3D/created-3D/1o5T_final/T1_1o5T"
+
+  hf: "data/pmc_paired/PMC dataset/3D/created-3D/3T_final/T1_3T"

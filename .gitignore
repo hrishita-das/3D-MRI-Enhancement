@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# TensorBoard
+events.out.tfevents*
+runs/
+
+# Checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+experiments/
+outputs/
+
+# Figures
+figures/
+
+# Metrics
+metrics/
+
+# Data
+data/
+
+# Nifti
+*.nii
+*.nii.gz
+
+# Temporary
+*.tmp
+*.swp
+.DS_Store

@@ -1,0 +1,31 @@
+seed: 42
+
+device: cuda:0
+
+epochs: 100
+
+batch_size: 1
+
+num_workers: 4
+
+learning_rate: 0.0002
+
+weight_decay: 0.00001
+
+save_every: 10
+
+experiment_name: lower_bound
+
+checkpoint_dir: experiments/lower_bound/checkpoints
+
+output_dir: experiments/lower_bound/outputs
+
+figure_dir: experiments/lower_bound/figures
+
+metric_dir: experiments/lower_bound/metrics
+
+log_dir: experiments/lower_bound/logs
+
+resume: false
+
+checkpoint: ""

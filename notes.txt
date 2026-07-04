@@ -1,0 +1,8 @@
+kill -9 $(cat /DATA1/m25cse014/3Dframework/train.pid)
+rm /DATA1/m25cse014/3Dframework/train.pid
+
+nohup env CUDA_VISIBLE_DEVICES=00000000:41:00.0 python -u train.py \
+    > /DATA1/m25cse014/3Dframework/nohup_train.log 2>&1 & \
+    echo $! > /DATA1/m25cse014/3Dframework/train.pid && \
+    echo "PID: $(cat /DATA1/m25cse014/3Dframework/train.pid)" && \
+    sleep 20 && tail -60 /DATA1/m25cse014/3Dframework/nohup_train.log

@@ -1,0 +1,13 @@
+input_channels: 1
+
+output_channels: 1
+
+base_channels: 32
+
+image_size:
+
+  - 160
+
+  - 192
+
+  - 160
